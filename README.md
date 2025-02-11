@@ -1,7 +1,5 @@
 # TodoTask
 
-# Todo List App
-
 This is a simple Todo List application built using **React** and **Redux** for state management. 
 It allows users to add, mark as complete, and delete todo items. The app uses Redux Toolkit for managing the state of the Todo list.
 
