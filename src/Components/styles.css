@@ -1,0 +1,67 @@
+
+  
+  /* Input and button container */
+  .todo-input {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field */
+  input {
+    padding: 10px;
+    flex: 1;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Submit button */
+  button {
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Todo list styles */
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  /* Todo item */
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Completed todo item */
+  .todo-item.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935;
+  }
+  
